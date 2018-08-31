@@ -1,6 +1,6 @@
 {
   "name": "reactnativeautocompleteselect-local",
-  "version": "1.1.2",
+  "version": "1.1.1-rc.1",
   "description": "AutoComplete with selection for react-native",
   "main": "index.js",
   "repository": {
