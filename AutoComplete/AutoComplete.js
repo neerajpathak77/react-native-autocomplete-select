@@ -3,7 +3,7 @@ import { TouchableHighlight, Text, TextInput, View } from 'react-native'
 import stringScore from 'string_score'
 import Styles from './Styles'
 import PropTypes from 'prop-types';
-
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 class AutoComplete extends Component {
     componentDidMount () {
         this.suggestions = this.filterSugestions(
@@ -77,7 +77,7 @@ class AutoComplete extends Component {
         }
 
         return (
-            <View
+            <KeyboardAwareScrollView
                 style={this.props.suggestionsWrapperStyle || Styles.suggestionsWrapper}
             >
                 {
@@ -98,7 +98,7 @@ class AutoComplete extends Component {
                         </TouchableHighlight>
                     ))
                 }
-            </View>
+            </KeyboardAwareScrollView>
         )
     }
 

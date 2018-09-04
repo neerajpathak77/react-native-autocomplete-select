@@ -22,6 +22,7 @@
   "dependencies": {
     "react": ">=15.4.1",
     "react-native": ">=0.38.0",
+    "react-native-keyboard-aware-scroll-view": "^0.7.2",
     "string_score": "git+https://github.com/ThiagoNP/string_score.git"
   },
   "devDependencies": {
